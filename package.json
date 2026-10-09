@@ -1,0 +1,11 @@
+{
+  "name": "@local/dsh-magpie-tool-images",
+  "version": "0.1.0",
+  "description": "Lets models behind the Magpie proxy see images returned by tools (read_image, canvas_read, …)",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "cordis.patch.yml"],
+  "scripts": { "test": "node --test" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

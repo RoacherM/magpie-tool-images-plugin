@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-magpie-tool-images
+      name: '@local/dsh-magpie-tool-images'
